@@ -137,3 +137,37 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# === Configuración específica del proyecto MeCal ===
+
+# OS específicos
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs adicionales
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Base de datos
+*.sql.backup
+*.sql.gz
+*.db
+
+# Archivos temporales del proyecto
+tmp/
+temp/
+backend/uploads/
+backend/logs/
+backend/templates/generated/
+
+# Archivos de reportes generados
+*.docx.tmp
+reports/generated/
+
+# Backups
+*.backup
+*.bak
